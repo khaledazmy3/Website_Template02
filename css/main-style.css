@@ -524,7 +524,8 @@ footer .container{
     align-items: center;
     position: absolute;
     bottom: 0;
-    padding-bottom:50px ;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
     padding-left: 50px;    display: flex;
     flex-flow: row;
     height: 23%;
@@ -588,7 +589,11 @@ footer .text h1{
     font-weight: 400;
     color: var(--main-color);
 }
-
+@media (max-height: 767px) {
+    footer .text h1{
+        font-size: 40px;
+    }
+}
 footer .text button{
     height: 25px;
     width: 100px;
