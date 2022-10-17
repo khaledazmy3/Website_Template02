@@ -291,6 +291,7 @@ header .lists ul li{
     header .lists ul{
         top:0;
         padding-top: 10px;
+        padding-left: 2.5vw;
     }
     header .lists ul li{
         line-height: 1px;
