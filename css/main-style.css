@@ -537,9 +537,8 @@ footer .contact{
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
+    padding-top: .6vh;
+    padding-bottom: .6vh;
 }
 
 footer .contact a{
